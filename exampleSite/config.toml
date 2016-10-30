@@ -1,0 +1,28 @@
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+baseurl = "http://example.com/"
+googleAnalytics = ""
+theme = "hugo-vitae"
+
+[params]
+  author = "Chris Turner"
+  title = "Chris Turner's Resume"
+  description = "Chris Turner's Awesome Resume"
+  avatar = "profile.png"
+  email = "christurner@me.com"
+  email_full = "mailto:youremail@me.com"
+  website = "git.io/sustain"
+  website_full = "https://demo.sumaxi.me/themes/hugo-sustain/"
+  github = "trending"
+  twitter = "twitter"
+  tel = "+44 0000 000000"
+  tel_full = "+440000000000"
+  google_maps = "https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL"
+  address = "44 Perth Street"
+  postcode = "EH3 5BL"
+  city = "Edinburgh"
+  country = "United Kingdom"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []

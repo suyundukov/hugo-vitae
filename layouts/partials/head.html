@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="{{ .Site.Author }}" />
+    {{ if .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}">{{ end }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/base.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/skeleton.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/layout.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    {{ range .Site.Params.custom_css }}
+    <link rel="stylesheet" href="{{ $.Site.BaseURL}}{{ . }}">
+    {{ end }}
+    {{ `<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->` | safeHTML }}
+    <link rel="favicon" href="{{ .Site.BaseURL }}img/favicon.ico">
+    {{ template "_internal/google_analytics.html" . }}
+  </head>
