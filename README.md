@@ -1,7 +1,6 @@
 ![Vitae - Logo][logo]
 
-Table of Contents
------------------
+## Table of Contents
 
 - [Installation](#installation)
 - [Quick start](#quick-start)
@@ -20,12 +19,11 @@ Table of Contents
 
 <p align="center"><b><a href="https://demo.sumaxi.me/themes/hugo-vitae/">Vitae Live Demo</a></b></p>
 
-Installation
-------------
+## Installation
 
 #### With `git`
 
-From the root of your Hugo site, clone the theme into `themes/hugo-vitae` by running : 
+From the root of your Hugo site, clone the theme into `themes/hugo-vitae` by running :
 ```
 git clone https://github.com/sumaxime/hugo-vitae.git themes/hugo-vitae
 ```
@@ -38,8 +36,7 @@ git clone https://github.com/sumaxime/hugo-vitae.git themes/hugo-vitae
 
 For more information read the official [setup guide][hugo-guide] of Hugo.
 
-Quick start
------------
+## Quick start
 
 After installation, take a look in the `exampleSite` folder at. This directory contains an example config file and the content for the demo. It serves as an example setup for your documentation. Edit the site attributes in `config.toml and edit the various entries in `layouts/partials/.
 
@@ -51,7 +48,7 @@ After installation, take a look in the `exampleSite` folder at. This directory c
              └── profile.png
 ```
 
-Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary. 
+Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary.
 
 Hugo includes a development server, so you can view your changes as you go -
 very handy. Spin it up with the following command:
@@ -63,20 +60,17 @@ hugo serve
 Now you can go to [localhost:1313][local] and the Vitae
 theme should be visible.
 
-Features
---------
+## Features
 
 ### Google Analytics
 
 To add Google Analytics, simply sign up to [Google Analytics][g-analytics] to obtain your Google Tracking ID, and add this tracking ID to the `googleAnalytics` parameter in `config.toml`.
 
-About
------
+## About
 
 This is a port of the Jekyll theme [Vitae][vitae-jekyll] by [Fábio Madeira][vitae-author]. It supports most of the features of the original theme.
 
-Contributing
-------------
+## Contributing
 
 Pull requests, bug fixes, and new features are welcome!
 
@@ -86,17 +80,20 @@ Pull requests, bug fixes, and new features are welcome!
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request on GitHub
 
-Changelog
----------
+## Changelog
 
 > Version 1.0
 
 - Initial release
 
-License
--------
+## License
 
-This theme is released under the [MIT license](LICENSE.md).
+<p align="center">
+  <a href="./LICENSE.md"><img src="https://i1.sumaxi.me/i/logo.svg" width="100%" height="128"></a>
+  <a href="./LICENSE.md"><strong>MIT</strong></a>
+</p>
+
+
 
 [logo]: https://i1.sumaxi.me/i/vitae.png
 [screenshot]: https://i1.sumaxi.me/i/vitae-screen.png
