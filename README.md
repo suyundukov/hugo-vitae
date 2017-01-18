@@ -17,7 +17,7 @@
 
 ********************
 
-<p align="center"><b><a href="https://demo.sumaxi.me/themes/hugo-vitae/">Vitae Live Demo</a></b></p>
+<p align="center"><b><a href="https://demo.nurlan.co/themes/hugo-vitae/">Vitae Live Demo</a></b></p>
 
 ## Installation
 
@@ -25,7 +25,7 @@
 
 From the root of your Hugo site, clone the theme into `themes/hugo-vitae` by running :
 ```
-git clone https://github.com/sumaxime/hugo-vitae.git themes/hugo-vitae
+git clone https://github.com/nurlansu/hugo-vitae.git themes/hugo-vitae
 ```
 
 #### Manual
@@ -89,17 +89,17 @@ Pull requests, bug fixes, and new features are welcome!
 ## License
 
 <p align="center">
-  <a href="./LICENSE.md"><img src="https://i1.sumaxi.me/i/logo.svg" width="100%" height="128"></a>
+  <a href="./LICENSE.md"><img src="https://i.nurlan.co/i/logo.svg" width="100%" height="128"></a>
   <a href="./LICENSE.md"><strong>MIT</strong></a>
 </p>
 
 
 
-[logo]: https://i1.sumaxi.me/i/vitae.png
-[screenshot]: https://i1.sumaxi.me/i/vitae-screen.png
+[logo]: https://i.nurlan.co/i/vitae.png
+[screenshot]: https://i.nurlan.co/i/vitae-screen.png
 [hugo]: https://gohugo.io/
 [gh-pages]: https://pages.github.com/
-[zip-archive]: https://github.com/sumaxime/hugo-vitae/archive/master.zip
+[zip-archive]: https://github.com/nurlansu/hugo-vitae/archive/master.zip
 [hugo-guide]: https://gohugo.io/overview/installing/
 [local]: http://localhost:1313/
 [g-analytics]: https://www.google.com/analytics/

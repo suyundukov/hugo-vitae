@@ -1,15 +1,15 @@
 name = "Vitae"
 license = "MIT"
-licenselink = "https://github.com/sumaxime/hugo-vitae/blob/master/LICENSE.md"
+licenselink = "https://github.com/nurlansu/hugo-vitae/blob/master/LICENSE.md"
 description = ""
-homepage = "https://github.com/sumaxime/hugo-vitae/"
+homepage = "https://github.com/nurlansu/hugo-vitae/"
 tags = ["cv", "resume"]
 features = ["one page", "resume"]
 min_version = 0.17
 
 [author]
   name = "Nurlan Su"
-  homepage = "https://github.com/sumaxime/"
+  homepage = "https://github.com/nurlansu/"
 
 # If porting an existing theme
 [original]
