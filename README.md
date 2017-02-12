@@ -17,7 +17,7 @@
 
 ********************
 
-<p align="center"><b><a href="https://demo.nurlan.co/themes/hugo-vitae/">Vitae Live Demo</a></b></p>
+<p align="center"><b><a href="https://demo.nurlan.co/hugo-vitae/">Vitae Live Demo</a></b></p>
 
 ## Installation
 
