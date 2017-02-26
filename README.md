@@ -43,6 +43,12 @@ After installation, take a look in the `exampleSite` folder at. This directory c
 ```
   exampleSite
   ├── config.toml
+  ├── data
+  │     ├── education.yml
+  │     ├── employment.yml
+  │     ├── hobbies.yml
+  │     ├── initiatives.yml
+  │     └── skills.yml
   └── static
         └── img
              └── profile.png

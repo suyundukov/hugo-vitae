@@ -1,19 +1,14 @@
 <section class="thirteen columns">
-    <h1>Programming Skills</h1>
-    <article>
-        <header>
-            <h1>Software engineering &amp; web development</h1>
-        </header>
-        <p>
-            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
-            &nbsp;&nbsp;<em>C/C++ &amp; Objective-C</em>
-        <p>
-            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
-            &nbsp;&nbsp;<em>Java</em>, <em>Python</em>, <em>PHP</em> &amp; <em>Git</em>
-        </p>
-        <p>
-            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i>
-            &nbsp;&nbsp;<em>HTML/CSS3</em> &amp; <em>Javascript</em>
-        </p>
-    </article>
+  <h1>{{ .Site.Data.skills.name }}</h1>
+  <article>
+    <header>
+      <h1>{{ .Site.Data.skills.title }}</h1>
+    </header>
+    {{ range .Site.Data.skills.source }}
+    <p>
+      {{ range $i, $seq := (seq .stars) }}<i class="fa fa-star"></i>{{ end }}{{ range $i, $seq := (seq (sub 5 (int .stars))) }}<i class="fa fa-star-o"></i>{{ end }}
+        &nbsp;&nbsp;<em>{{ delimit .name "</em>, <em>" "</em> & <em>" }}</em>
+    </p>
+    {{ end }}
+  </article>
 </section>
