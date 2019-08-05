@@ -2,7 +2,10 @@
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
+    - [With `git`](#with-git)
+    - [Manual](#manual)
 - [Quick start](#quick-start)
 - [Features](#features)
   - [Google Analytics](#google-analytics)
@@ -95,14 +98,14 @@ Pull requests, bug fixes, and new features are welcome!
 ## License
 
 <p align="center">
-  <a href="./LICENSE.md"><img src="https://i.nurlan.co/logo.svg" width="100%" height="128"></a>
+  <a href="./LICENSE.md"><img src="https://nurlan.co/cdn/logo.svg" width="100%" height="128"></a>
   <a href="./LICENSE.md"><strong>MIT</strong></a>
 </p>
 
 
 
-[logo]: https://i.nurlan.co/vitae.png
-[screenshot]: https://i.nurlan.co/vitae-screen.png
+[logo]: https://nurlan.co/cdn/vitae.png
+[screenshot]: https://nurlan.co/cdn/vitae-screen.png
 [hugo]: https://gohugo.io/
 [gh-pages]: https://pages.github.com/
 [zip-archive]: https://github.com/nurlansu/hugo-vitae/archive/master.zip
